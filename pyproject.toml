@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "scanning"
+version = "0.1.0"
+description = "Scanning utility"
+authors = ["Andrew Kail <andrew.a.kail@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^7.1.2"
+loguru = "^0.5.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+scanner = 'scanner'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
